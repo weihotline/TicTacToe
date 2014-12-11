@@ -1,0 +1,54 @@
+h1 {
+  text-align: center;
+}
+
+.ttt {
+  width: 156px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.ttt div.alert {
+  display: none;
+}
+
+.ttt div.alert-success, div.alert-info, div.alert-danger {
+  display: block !important;
+}
+
+.ttt button {
+  margin-top: 10px;
+  margin-right: 70%;
+  margin-left: 30%;
+}
+
+.row {
+  margin: 0;
+  margin-left: 2px !important;
+  padding: 0;
+}
+
+.cell {
+  display: inline-block;
+  vertical-align: top;
+
+  width: 50px;
+  height: 50px;
+
+  border: 1px solid salmon;
+  border-radius: 25px;
+  margin: 0;
+  padding: 0;
+}
+
+.cell.player-x {
+  background-image: url("../images/x.png")
+}
+
+.cell.player-o {
+  background-image: url("../images/o.png")
+}
+
+.cell:hover:not(.player-x):not(.player-o) {
+  background-color: salmon;
+}
