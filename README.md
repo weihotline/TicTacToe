@@ -2,7 +2,7 @@
 This is a simple javascript game: Tic Tac Toe.
 
 ## Live Demo
-* [Tic Tac Toe](http://simplett.herokuapp.com)
+* [Tic Tac Toe](http://simplettt.herokuapp.com)
 
 ![TicTacToe screenshot](/images/ttt.png)
 
